@@ -214,18 +214,40 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+
+    .button_row {
+        display: flex;
+        width: 600px;
+        
+    }
+    .bs {
+        background-color:  rgb(45, 77, 182);
+        border-color: #1269B0;
+        color: white;
+        width: 140px;
+        height: 40px;
+        font-size: 1.05em;
+        font-weight: 600;
+        margin: 5px;
+    }
+    .bs:hover {
+    opacity: 0.85;
+    }
+
 </style>
 
 <!-- End : Google Analytics Code -->
 <script type="text/javascript" src="../js/hidebib.js"></script>
+
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
-    rel='stylesheet' type='text/css'>
+rel='stylesheet' type='text/css'>
 
 <head>
     <title>Weakly Supervised Learning of Rigid 3D Scene Flow</title>
     <meta property="og:description" content="Weakly Supervised Learning of Rigid 3D Scene Flow" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/6e21e18363.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@ZGojcic">
     <meta name="twitter:title" content="Weakly Supervised Learning of Rigid 3D Scene Flow">
@@ -278,7 +300,14 @@
                 <div class="col-3 text-center"><a href="https://nv-tlabs.github.io/"><sup>3</sup>NVIDIA</a></div>
             </div>
         </div>
-
+        <p></p>
+        
+        <div class="parent">
+              <a href="https://3dsceneflow.github.io/"><button class="bs"><span class="fa fa-file-pdf-o fa-fw"></span> Paper</button></a>
+              <a href="https://3dsceneflow.github.io/"><button class="bs"><span class="fa fa-github fa-fw"></span> Code</button></a>
+              <a href="https://3dsceneflow.github.io/"><button class="bs"><span class="fa fa-database fa-fw"></span> Data</button></a>
+        </div>
+        <p></p>
         <section id="teaser">
             <a href="assets/network_architecture.pdf">
                 <img class="centered" width="100%" src="assets/network_architecture.jpg">
